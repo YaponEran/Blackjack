@@ -3,7 +3,7 @@ class Player
   def initiazlize(name, type)
     @name = name
     @type = type
-    @cards = []
+    @cards = Hand.new.cards
     @money_in_bank = 100
   end
 

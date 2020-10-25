@@ -1,5 +1,8 @@
 class Hand
   attr_reader :cards
+  def initialize
+    @cards = []
+  end
   def total_ascore(cards)
     total_score = 0
     ace_count = 0
