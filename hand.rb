@@ -1,5 +1,6 @@
 class Hand
-  def total_acore(cards)
+  attr_reader :cards
+  def total_ascore(cards)
     total_score = 0
     ace_count = 0
 

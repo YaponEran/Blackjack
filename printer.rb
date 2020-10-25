@@ -27,7 +27,7 @@ class Printer
     puts msg
   end
 
-  def self.show_banl(bank_money)
+  def self.show_bank(bank_money)
     puts "Amoun of money in bank: #{bank_money}"
   end
 
