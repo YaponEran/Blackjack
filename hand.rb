@@ -3,7 +3,8 @@ class Hand
   def initialize
     @cards = []
   end
-  def total_ascore(cards)
+
+  def total_ascore
     total_score = 0
     ace_count = 0
 
